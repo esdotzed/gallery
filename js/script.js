@@ -1,9 +1,8 @@
 var id = 'gallery';
-var layoutStyle = 'SQUARES';
 
 function reqListener() {
   var renderer
-  switch (layoutStyle) {
+  switch ("ROWS") {
     case COLUMNS:
       renderer = new VerticalRenderer(id);
       break;

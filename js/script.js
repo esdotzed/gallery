@@ -1,5 +1,5 @@
 var id = 'gallery';
-var layoutStyle = 'ROWS';
+var layoutStyle = 'SQUARES';
 
 function reqListener() {
   var renderer

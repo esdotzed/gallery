@@ -2,7 +2,7 @@ var id = 'gallery';
 
 function reqListener() {
   var renderer
-  switch ("ROWS") {
+  switch (layoutStyle) {
     case COLUMNS:
       renderer = new VerticalRenderer(id);
       break;
